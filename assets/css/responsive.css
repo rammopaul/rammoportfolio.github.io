@@ -1,0 +1,147 @@
+/**=== Desktop View & Tablet View ===**/
+@media (max-width: 991px){
+    /* Header Start */
+    .main-menu .navbar-nav  {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      z-index: 1;
+      top: 65px;
+      left: 0;
+      background-color: #f34236;
+      overflow-x: hidden;
+      transition: 0.5s;
+      padding-top: 60px;
+      text-align:center;
+    }
+    
+    .main-menu .navbar-nav li a {
+      padding: 8px 8px 8px 32px;
+      text-decoration: none;
+      font-size: 14px;
+      color: #111111;
+      display: block;
+      transition: 0.3s;
+      
+    }
+    
+    .main-menu .navbar-nav li a:hover{
+      color: #fff;
+    }
+    
+    .main-menu .navbar-nav .closebtn {
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px;
+      display: block;
+      font-weight: 400;
+    }
+    
+    .menu-icon span{
+        font-size: 30px;
+        cursor: pointer;
+        position: absolute;
+        top: 9px;
+        right: 0;
+        display: block;
+        color: #fff;
+    }
+    .fixed .menu-icon span{
+        color: #111111;
+    }
+    .fixed .main-menu .navbar-nav li a::after{
+        background-color: #fff;
+    }
+    /* Home Start */
+    .dta h3{
+        font-size: 40px;
+    }
+    .dta h1{
+        font-size: 60px;
+    }
+
+    /* About */
+    .about-details{
+        padding-bottom: 191px;
+        padding-top: 240px;
+        padding-left: 0;
+    }
+
+    /* fun fact */
+    .status h3{
+        font-size: 50px;
+    }
+  
+
+    /* cta */
+    .font-w-600{
+        font-size: 28px;
+    }
+
+    /* Blog */
+    .m-15px-tb{
+        margin: 20px 0;
+    }
+    .blogs .blogs-center{
+        text-align: center;
+        padding-bottom: 30px !important;
+    }
+}
+
+/**=== Portrait Tablet View , Large Phone view ===**/
+@media (max-width: 767px){
+    /* Home Start */
+    .dta h3{
+        font-size: 30px;
+    }
+    .dta h1{
+        font-size: 40px;
+    }
+
+    /* cta */
+    .font-w-600{
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 508px){
+    .portfolio-filter-01 .filter li{
+        font-size: 13px;
+        margin: 0 10px;
+    }
+    .status h3 {
+        font-size: 40px;
+    }
+    .status .col-xs-6 {
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 491px){
+    .portfolio-filter-01 .filter li{
+        font-size: 13px;
+        margin: 0 10px;
+    }
+}
+
+@media (max-width: 418px){
+    .portfolio-filter-01 .filter li{
+        font-size: 12px;
+        margin: 0 7px;
+    }
+}
+
+@media (max-width: 366px){
+    .about-details .btn-goto{
+        padding-left: 4px;
+    }
+    .portfolio-filter-01 .filter li{
+        font-size: 11px;
+    }
+    /* cta */
+    .font-w-600{
+        font-size: 19px;
+    }
+}
